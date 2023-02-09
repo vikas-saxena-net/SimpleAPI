@@ -25,13 +25,15 @@ namespace SimpleApi.Controllers
         public string Get(int id)
         {
             return "Les Jackson";
-            
+
         }
 
         // POST api/values
         [HttpPost]
         public void Post([FromBody]string value)
         {
+
+            
         }
 
         // PUT api/values/5
